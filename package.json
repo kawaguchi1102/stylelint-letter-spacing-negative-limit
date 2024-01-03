@@ -1,0 +1,34 @@
+{
+  "name": "stylelint-letter-spacing-negative-limit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawaguchi1102/stylelint-letter-spacing-negative-limit.git"
+  },
+  "keywords": [
+    "css",
+    "stylelint",
+    "stylelint-plugin"
+  ],
+  "author": "kawaguchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kawaguchi1102/stylelint-letter-spacing-negative-limit/issues"
+  },
+  "peerDependencies": {
+    "stylelint": "^15.0.0||^16.0.0"
+  },
+  "devDependencies": {
+    "stylelint": "^16.1.0",
+    "stylelint-test-rule-node": "^0.2.0"
+  },
+  "dependencies": {
+    "postcss-value-parser": "^4.2.0"
+  }
+}
