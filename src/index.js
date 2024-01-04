@@ -11,7 +11,7 @@ const messages = ruleMessages(ruleName, {
     expected: (value) => `Expected letter-spacing in negative "${value}"`
 });
 const meta = {
-    url: "https://github.com/kawaguchi1102/stylelint-letter-spacing-negative-limit/README.md"
+    url: "https://github.com/kawaguchi1102/stylelint-letter-spacing-negative-limit#readme"
 };
 
 const rule = primary => {
