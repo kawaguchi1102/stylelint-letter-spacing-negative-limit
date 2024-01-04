@@ -9,6 +9,16 @@ a {
 /**               ↑
  *                This negative value */
 ```
+Exceptionally, the following patterns pass the rule.
+
+```css
+.class {
+  --foo: -10px;
+  letter-spacing: var(--foo);
+}
+/**                   ↑
+ *                    This variable value is -10px */
+```
 
 ## Usage
 

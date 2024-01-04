@@ -25,6 +25,14 @@ testRule({
         },
         {
             code: ".class { letter-spacing: 100%; }"
+        },
+        {
+            code: `
+            .class {
+              --foo: -10px;
+              letter-spacing: var(--foo);
+            }
+            `
         }
     ],
 

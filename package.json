@@ -1,6 +1,6 @@
 {
   "name": "stylelint-letter-spacing-negative-limit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "src/index.js",
   "type": "module",
@@ -22,7 +22,7 @@
     "url": "https://github.com/kawaguchi1102/stylelint-letter-spacing-negative-limit/issues"
   },
   "peerDependencies": {
-    "stylelint": "^15.0.0||^16.0.0"
+    "stylelint": "^16.0.0"
   },
   "devDependencies": {
     "stylelint": "^16.1.0",
