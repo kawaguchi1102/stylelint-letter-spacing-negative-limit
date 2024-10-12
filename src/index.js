@@ -25,13 +25,17 @@ const rule = (primary) => (root, result) => {
 
     root.walkDecls("letter-spacing", decl => {
         const parsedValue = valueParser(decl.value);
+
         parsedValue.walk(node => {
             const {value, type} = node;
+
             if (type === "word") {
                 const numberUnit = valueParser.unit(value);
+
                 if (!numberUnit) return;
 
                 const number = Number.parseFloat(numberUnit.number);
+
                 if (number < 0) {
                     report({
                         message: messages.expected(decl.value),
