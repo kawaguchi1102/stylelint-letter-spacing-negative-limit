@@ -25,6 +25,8 @@
     "stylelint": "^16.0.0"
   },
   "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-stylelint": "^22.0.0",
     "stylelint": "^16.1.0",
     "stylelint-test-rule-node": "^0.3.0"
   },

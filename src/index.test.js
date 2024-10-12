@@ -1,5 +1,5 @@
-import {testRule} from "stylelint-test-rule-node";
 import plugin from "./index.js"
+import {testRule} from "stylelint-test-rule-node";
 
 const {
     rule: {messages, ruleName}
